@@ -1,0 +1,93 @@
+#contact{
+    padding: 50px 0;
+    .contact_head{
+        text-align: center;
+        h3{
+            color: red;
+            font-family: 'Roboto Condensed', sans-serif;
+            font-weight: 400;
+        }
+        h2{
+            color: black;
+            font-family: 'Roboto Condensed', sans-serif;
+            font-weight: 400;
+            margin-top: 5px;
+            font-size: 50px;
+        }
+        p{
+            color: rgba(0, 0, 0, 0.75);
+            font-family: 'Roboto Condensed', sans-serif;
+            font-weight: 400;
+            margin-top: 10px;
+            font-size: 18px;
+        }
+    }
+    .contact_one{
+        position: relative;
+        margin-left: 50px;
+        margin-top: 30px;
+        h3{
+            color: black;
+            font-family: 'Roboto Condensed', sans-serif;
+            font-weight: 400;
+
+        }
+        h4{
+            font-family: 'Roboto Condensed', sans-serif;
+            font-weight: 400;
+            color: rgba(0, 0, 0, 0.61); 
+
+        }
+        i{
+            color: rgb(40, 128, 238);
+            font-size: 30px;
+            position: absolute;
+            top: 15px;
+            left: -40px;
+        }
+    }
+   .form{
+    input{
+        height: 60px;
+        margin: 20px 0;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        
+}
+
+
+   }
+   .text_area{
+    textarea{
+        height: 200px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+}
+   }
+   .contact_baton{
+    margin-top: 10px;
+    a{
+        padding: 10px 35px;
+        background-color: rgb(40,129,238);
+        font-family: 'Roboto Condensed', sans-serif;
+        color: #ffff;
+        font-weight: 400;
+        font-size: 20px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+  }&:hover a{
+    color: black;
+    background-color: orange;
+  }
+   }
+
+}

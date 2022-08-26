@@ -1,0 +1,101 @@
+#portfolio{
+    padding: 40px 0;
+    .port_text{
+        text-align: center;
+        h3{
+            font-size: 24px;
+            font-weight: 400;
+            font-family: 'Roboto Condensed', sans-serif;
+            color: red;
+        }
+        h2{
+            font-size: 43px;
+            font-weight: 400;
+            font-family: 'Roboto Condensed', sans-serif;
+            color: black;
+            margin-top: 5px; 
+        }
+        p{
+            font-size: 20px;
+            font-weight: 400;
+            font-family: 'Roboto Condensed', sans-serif;
+            color: rgba(0, 0, 0, 0.332);
+            margin-top: 20px;
+        }
+    }
+    .mix_btn{
+        text-align: center;
+        margin-top: 30px;
+    }
+    .mix-emg{
+        img{
+            width: 100%;
+            margin: 10px 0 0 0;
+        }
+        
+    
+    }
+
+    .p_p_text{
+        h4{
+            color: red;
+            font-family: 'Roboto Condensed', sans-serif;
+            font-weight: 400;
+        }
+        h2{
+            color: rgba(0, 0, 0, 0.78);
+            font-family: 'Roboto Condensed', sans-serif;
+            font-weight: 400;
+            font-size: 50px;
+            margin-top: 10px;
+            color: rgba(0, 0, 0, 0.607);
+            font-family: 'Roboto Condensed', sans-serif;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+    }
+    
+    .mix_btn{
+        button{
+            background-color: transparent;
+            border: none;
+            margin: 0 15px;
+            color: black;
+            font-weight: 400;
+           font-size: 22px;
+           font-family: 'Roboto Condensed', sans-serif;
+           &:hover{
+            color: red;
+            transition: 0.5s;
+            -webkit-transition: 0.5s;
+            -moz-transition: 0.5s;
+            -ms-transition: 0.5s;
+            -o-transition: 0.5s;
+}
+        }
+    }
+    
+    .counter_main{
+        margin-top: 90px;
+        .counter_item{
+            height: 100%;
+            width: 100%;
+            text-align: center;
+            padding: 100px 50px;
+           
+        }
+        span{
+            font-weight: 400;
+            font-family: 'Roboto Condensed', sans-serif;
+            font-size: 30px;
+            color: red;
+        }
+       h4{
+        font-weight: 400;
+       font-family: 'Roboto Condensed', sans-serif;
+       font-size: 25px;
+       color: black;
+       }
+    }
+
+}

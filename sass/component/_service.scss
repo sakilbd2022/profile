@@ -1,0 +1,75 @@
+#service{
+    padding: 100px 0;
+    .service_text{
+        text-align: center;
+        h3{
+            color: red;
+            font-weight: 400;
+            font-family: 'Roboto Condensed', sans-serif;
+
+        }
+        h2{
+            font-weight: 400;
+            font-family: 'Roboto Condensed', sans-serif;
+            font-size: 50px;
+            margin-top: 5px; 
+        }
+        p{
+            font-weight: 400;
+            font-family: 'Roboto Condensed', sans-serif;
+            color: rgba(0, 0, 0, 0.463);
+            font-size: 20px;
+            margin-top: 5px;
+            
+        }
+    }
+    .ser_one{
+       padding: 40px 40px 40px 150px;
+       background-color: #ffff;
+       position: relative;
+       border-radius:20px ;
+       -webkit-border-radius:20px ;
+       -moz-border-radius:20px ;
+       -ms-border-radius:20px ;
+       -o-border-radius:20px ;
+       box-shadow: 2px 3px 13px 3px rgba(66,59,59,0.28);
+-webkit-box-shadow: 2px 3px 13px 3px rgba(66,59,59,0.28);
+-moz-box-shadow: 2px 3px 13px 3px rgba(66,59,59,0.28);
+        
+       h3{
+        font-weight: 400;
+        font-family: 'Roboto Condensed', sans-serif;
+        color: black;
+    }
+    h4{
+        font-weight: 400;
+        font-family: 'Roboto Condensed', sans-serif;
+        color: black;
+        margin-top: 10px;
+        span{
+            font-weight: 400;
+            font-family: 'Roboto Condensed', sans-serif;
+            color: red;
+        }
+    }
+    p{
+        color: rgba(0, 0, 0, 0.536);
+        font-weight: 400;
+        font-family: 'Roboto Condensed', sans-serif;
+        line-height: 30px;
+        font-size: 18px;
+    }
+    img{
+        position: absolute;
+        top: 81px;
+        left: 30px;
+    }
+    i{
+        position: absolute;
+        top: 110px;
+        left: 55px;
+        font-size: 40px;
+        color: #ffff;
+    }
+}
+}
